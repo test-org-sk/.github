@@ -4,10 +4,6 @@ on:
     inputs:
       team_slug: { type: string, required: true }
 
-permissions:
-  pull-requests: write
-  issues: write
-
 jobs:
   notice:
     runs-on: ubuntu-latest
